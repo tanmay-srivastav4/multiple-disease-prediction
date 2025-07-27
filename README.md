@@ -43,13 +43,13 @@ cd multiple-disease-prediction
 
 ## 2. Create Virtual Environment (Optional)
 
-# For Windows
+For Windows
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-# For Mac/Linux
+For Mac/Linux
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -64,19 +64,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
----
-
-📁 Project Structure
-multiple-disease-prediction/
-│
-├── app.py                  # Main Streamlit app file
-├── requirements.txt        # Python package dependencies
-├── scaler.pkl              # Preprocessing scaler for consistent input
-│
-├── saved_models/           # Directory containing .sav model files
-├── colab_notebooks/        # Notebooks used for initial training
-└── training_notebooks/     # Refined and modular notebooks
-
 ---
 
 🧰 Technologies Used
