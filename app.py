@@ -15,9 +15,9 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # loading the saved models
 
-diabetes_model = pickle.load(open(r"C:\Users\tanma\OneDrive\Desktop\Python\multiple_disease_prediction\diabetes_model (2).sav", 'rb'))
+diabetes_model = pickle.load(open(r"C:\Users\tanma\OneDrive\Desktop\Python\multiple_disease_prediction\saved_models\diabetes_model.sav", 'rb'))
 
-heart_disease_model = pickle.load(open(r"C:\Users\tanma\OneDrive\Desktop\Python\multiple_disease_prediction\heart_disease_model (3).sav", 'rb'))
+heart_disease_model = pickle.load(open(r"C:\Users\tanma\OneDrive\Desktop\Python\multiple_disease_prediction\saved_models\heart_disease_model.sav", 'rb'))
 
 
 # sidebar for navigation
