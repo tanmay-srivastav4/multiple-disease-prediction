@@ -1,15 +1,76 @@
-# 🧑‍⚕️ Multiple Disease Prediction App
+# 🧠 Multiple Disease Prediction
 
-A Streamlit-based web application to predict multiple diseases using pre-trained machine learning models.
+**Multiple Disease Prediction** is a machine learning-powered web application that allows users to predict the likelihood of multiple diseases— Diabetes and Heart Disease based on inputted clinical data. The models are trained using standard datasets and the app is deployed using Streamlit for an interactive user experience.
 
-## 💡 Features
-- Diabetes Prediction
-- Heart Disease Prediction
-- Trained models using Scikit-learn
-- Simple and interactive UI with Streamlit
+---
+
+## 🚀 Features
+
+- **Disease Prediction**: Predicts the likelihood of  
+  - 🩸 **Diabetes**  
+  - ❤️ **Heart Disease**  
+
+- **Streamlit Interface**: Simple, interactive UI for inputting parameters and viewing results.
+
+- **Google Colab Training**: ML models trained in Colab and exported as `.sav` files.
+
+- **Preprocessing with Scaler**: Ensures consistent input handling using a saved `scaler.pkl`.
+
+- **Modular Structure**: Clean folder layout for models, notebooks, and app logic.
+
+---
+
+## 🧰 Getting Started
+
+To get the **Multiple Disease Prediction** app running locally, follow the instructions below to set up the application on your local machine.
+
+### ✅ Prerequisites
+
+Ensure you have the following installed:
+
+- [Python](https://www.python.org/downloads/) 3.8+
+- pip (Python package manager)
+- Git (optional, for cloning)
+
+---
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/tanmay-srivastav4/multiple-disease-prediction.git
+cd multiple-disease-prediction
+```
+
+## 2. Create Virtual Environment (Optional)
+
+For Windows
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+For Mac/Linux
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+## 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## 4. Run the Application
+```bash
+streamlit run app.py
+```
+---
+
+🧰 Technologies Used
+  1. Frontend: Streamlit
+  2. Backend: Python
+  3. ML Libraries: scikit-learn, pandas, numpy
+  4. Model Training: Google Colab
+  5. Model Serialization: joblib (.sav format)
 
 
-
-app.py is the streamlit app code. run the command "pip install -r requirements.txt" to install the required dependencies for the streamlit app.
-
-You may need to install additional libraries for running the jupyter notebooks.
